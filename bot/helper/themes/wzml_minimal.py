@@ -125,15 +125,15 @@ class WZMLStyle:
     LINKS_START = """<b><i>Tugas Dimulai</i></b> 🚀
 ┠ <b>Mode:</b> {Mode} ⚙️
 ┖ <b>Oleh:</b> {Tag}\n\n"""
-LINKS_SOURCE = """➲ <b>Sumber:</b>
+    LINKS_SOURCE = """➲ <b>Sumber:</b>
 ┖ <b>Ditambahkan Pada:</b> {On} 📆
 ------------------------------------------
 {Source}
 ------------------------------------------\n\n"""
     
     # async def __msg_to_reply(self): ---> pyrogramEngine.py
-    PM_START =      "➲ <b><u>Tugas Dimulai :</u></b>\n┃\n┖ <b>Tautan:</b> <a href='{msg_link}'>Klik Di Sini</a> 🔗"
-    L_LOG_START =      "➲ <b><u>Leech Dimulai :</u></b>\n┃\n┠ <b>Pengguna :</b> {mention} ( #ID{uid} )\n┖ <b>Sumber :</b> <a href='{msg_link}'>Klik Di Sini</a> 🔗"
+    PM_START =            "➲ <b><u>Task Started :</u></b>\n┃\n┖ <b>Link:</b> <a href='{msg_link}'>Click Here</a>"
+    L_LOG_START =           "➲ <b><u>Leech Started :</u></b>\n┃\n┠ <b>User :</b> {mention} ( #ID{uid} )\n┖ <b>Source :</b> <a href='{msg_link}'>Click Here</a>"
 
     # async def onUploadComplete(): ---> tasks_listener.py
     NAME =         '<b><i>{Name}</i></b>\n┃\n'
