@@ -32,7 +32,7 @@ class WZMLStyle:
     WEB_PASTE_BT = '📨 Tempel Web (SB)'
     # ---------------------
     # async def bot_help(client, message): ---> __main__.py
-   BASIC_BT = 'Basic ⚙️'
+    BASIC_BT = 'Basic ⚙️'
     USER_BT = 'Users 👤'
     MICS_BT = 'Mics 🎤'
     O_S_BT = 'Owner & Sudos 👑'
@@ -248,7 +248,7 @@ LINKS_SOURCE = """➲ <b>Sumber:</b>
     # ---------------------
 
     # async def mirror_status(_, message): ----> status.py
-NO_ACTIVE_DL = '''<i>Tidak Ada Unduhan Aktif!</i>
+    NO_ACTIVE_DL = '''<i>Tidak Ada Unduhan Aktif!</i>
    
 <b><i>Statistik Bot</i></b>
 ┠ <b>CPU:</b> {cpu}% | <b>F:</b> {free} [{free_p}%]
