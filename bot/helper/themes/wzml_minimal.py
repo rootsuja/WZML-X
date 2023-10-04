@@ -2,11 +2,11 @@
 class WZMLStyle:
     # ----------------------
     # async def start(client, message) ---> __main__.py
-    ST_BN1_NAME = '🎉 Repo 💯'
-    ST_BN1_URL = 'https://www.github.com/weebzone/WZML-X'
-    ST_BN2_NAME = 'Updates 💯'
-    ST_BN2_URL = 'https://t.me/WZML-X'
-    ST_MSG = '''<i>Bot ini dapat menggandakan semua tautan|file|torrent Anda ke Google Drive atau cloud rclone apa pun atau ke telegram atau ke server ddl.</i>
+    ST_BN1_NAME = '🎉 Owner 💯'
+    ST_BN1_URL = 'https://www.t.me/titimothy'
+    ST_BN2_NAME = 'Group 💯'
+    ST_BN2_URL = 'https://t.me/naberalmirror'
+    ST_MSG = '''<i>Bot ini dapat menggandakan semua tautan|file|torrent Anda ke Google Drive atau cloud rclone apa pun atau ke telegram atau ke server ddl. Bergabung ke Group untuk memulai menggunakan Bot</i>
     <b>Ketik 🔐 {help_command} untuk mendapatkan daftar perintah yang tersedia</b>'''
     ST_BOTPM = '''<i>Sekarang, Bot ini akan mengirim semua file dan tautan Anda ke sini. Mulai Menggunakan 🚀...</i>'''
     ST_UNAUTH = '''<i>Anda bukan pengguna yang berwenang! Luncurkan bot WZML-X Mirror-Leech Anda sendiri ✨</i>'''
